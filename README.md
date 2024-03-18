@@ -1,66 +1,20 @@
-## Foundry
+# FundMe Smart Contract
 
-**Foundry is a blazing fast, portable and modular toolkit for Ethereum application development written in Rust.**
+## Project Description
+FundMe is a blockchain-based smart contract developed using Solidity, facilitating secure and transparent fundraising. The smart contract allows users to contribute funds for various purposes, with all transactions recorded securely on the blockchain.
 
-Foundry consists of:
+## Functionality
+- Users can contribute funds to the smart contract for specific causes or projects.
+- The smart contract securely records all transactions and the addresses of funders.
+- Funders can withdraw their contributed funds from the smart contract at any designated time.
+- Deployed initially on the Sepholia test network for testing and demonstration purposes.
 
--   **Forge**: Ethereum testing framework (like Truffle, Hardhat and DappTools).
--   **Cast**: Swiss army knife for interacting with EVM smart contracts, sending transactions and getting chain data.
--   **Anvil**: Local Ethereum node, akin to Ganache, Hardhat Network.
--   **Chisel**: Fast, utilitarian, and verbose solidity REPL.
+## Need
+- Provides a secure and transparent platform for fundraising activities.
+- Eliminates the need for intermediaries, reducing costs and increasing efficiency.
+- Ensures trust and accountability in fundraising efforts through blockchain technology.
 
-## Documentation
-
-https://book.getfoundry.sh/
-
-## Usage
-
-### Build
-
-```shell
-$ forge build
-```
-
-### Test
-
-```shell
-$ forge test
-```
-
-### Format
-
-```shell
-$ forge fmt
-```
-
-### Gas Snapshots
-
-```shell
-$ forge snapshot
-```
-
-### Anvil
-
-```shell
-$ anvil
-```
-
-### Deploy
-
-```shell
-$ forge script script/Counter.s.sol:CounterScript --rpc-url <your_rpc_url> --private-key <your_private_key>
-```
-
-### Cast
-
-```shell
-$ cast <subcommand>
-```
-
-### Help
-
-```shell
-$ forge --help
-$ anvil --help
-$ cast --help
-```
+## Technologies Used
+- Solidity: Back-end language for writing the smart contract.
+- HTML, CSS: Front-end for user interface and styling.
+- Blockchain Technology: Utilized for secure and transparent transaction recording.
